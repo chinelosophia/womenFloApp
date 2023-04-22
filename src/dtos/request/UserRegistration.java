@@ -1,4 +1,4 @@
-package dtos;
+package dtos.request;
 
 import java.time.LocalDate;
 

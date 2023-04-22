@@ -1,9 +1,11 @@
-package dtos;
+package dtos.request;
 
 public class FloInformation {
     private int numberOfDays;
     private int monthlyRange;
     private int previousFirstDay;
+
+
 
     public int getNumberOfDays() {
         return numberOfDays;
