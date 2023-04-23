@@ -1,6 +1,6 @@
 package dtos.request;
 
-public class FloInformation {
+public class FloInformationRequest {
     private int numberOfDays;
     private int monthlyRange;
     private int previousFirstDay;
@@ -30,4 +30,10 @@ public class FloInformation {
     public void setPreviousFirstDay(int previousFirstDay) {
         this.previousFirstDay = previousFirstDay;
     }
+public String toString(){
+    return """
+            Welcome!!
+            """;
+}
+
 }

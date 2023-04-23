@@ -2,10 +2,11 @@ package dtos.request;
 
 import java.time.LocalDate;
 
-public class UserRegistration {
+public class UserRegistrationRequest {
     private int userId;
  private String firstName;
   private String lastName;
+  private String emailAddress;
     private String passWord;
     private LocalDate timeCreated = LocalDate.now();
 
@@ -48,5 +49,13 @@ public class UserRegistration {
 
     public void setTimeCreated(LocalDate timeCreated) {
         this.timeCreated = timeCreated;
+    }
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
     }
 }
